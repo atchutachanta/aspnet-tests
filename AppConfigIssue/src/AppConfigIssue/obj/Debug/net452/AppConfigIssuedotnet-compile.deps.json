@@ -17,6 +17,8 @@
     ".NETFramework,Version=v4.5.2": {
       "AppConfigIssue/1.0.0": {
         "dependencies": {
+          "System.Data": "4.0.0.0",
+          "System.ServiceModel": "4.0.0.0",
           "Microsoft.AspNetCore.Mvc": "1.0.0-rc2-final",
           "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0-rc2-final",
           "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-final",
@@ -921,6 +923,16 @@
           "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "System.Data/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.2/System.Data.dll": {}
+        }
+      },
+      "System.ServiceModel/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.2/System.ServiceModel.dll": {}
+        }
+      },
       "mscorlib/4.0.0.0": {
         "compile": {
           ".NETFramework/v4.5.2/mscorlib.dll": {}
@@ -970,6 +982,8 @@
     ".NETFramework,Version=v4.5.2/": {
       "AppConfigIssue/1.0.0": {
         "dependencies": {
+          "System.Data": "4.0.0.0",
+          "System.ServiceModel": "4.0.0.0",
           "Microsoft.AspNetCore.Mvc": "1.0.0-rc2-final",
           "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0-rc2-final",
           "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-final",
@@ -1790,6 +1804,8 @@
           "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "System.Data/4.0.0.0": {},
+      "System.ServiceModel/4.0.0.0": {},
       "mscorlib/4.0.0.0": {},
       "System/4.0.0.0": {},
       "System.Core/4.0.0.0": {},
@@ -2306,6 +2322,16 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-dfj0Fl7/0KeP1UwQvo7xu7LdRAHfJ/Pdvo2YL+sDHddCLaiu+1yNyijYBocaCgQ4H0t8nEg8he/dWsPpaTdfNg=="
+    },
+    "System.Data/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.ServiceModel/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
     },
     "mscorlib/4.0.0.0": {
       "type": "referenceassembly",

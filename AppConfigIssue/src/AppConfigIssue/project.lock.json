@@ -3785,7 +3785,10 @@
       "Microsoft.Extensions.Logging.Console >= 1.0.0-rc2-final",
       "Microsoft.Extensions.Logging.Debug >= 1.0.0-rc2-final"
     ],
-    ".NETFramework,Version=v4.5.2": []
+    ".NETFramework,Version=v4.5.2": [
+      "System.Data >= 4.0.0",
+      "System.ServiceModel >= 4.0.0"
+    ]
   },
   "tools": {
     ".NETCoreApp,Version=v1.0": {
